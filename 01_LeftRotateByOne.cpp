@@ -31,10 +31,9 @@ int main()
     cout<<"Enter number of positions to rotate: ";
     cin>>d;
     leftRotate(arr,n,d);
-    cout<<"The left rotated array ";
+    cout<<"The left rotated array ";g
     for(int i=0;i<n;i++)
     {
         cout<<arr[i];
     }
     return 0;
-}
